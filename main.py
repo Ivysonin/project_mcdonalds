@@ -4,6 +4,7 @@ from combos import combos_economicos, combos_especiais, combos_mcnuggets, combos
 print ("\n========== Bem vindo ao McDonald's ==========")
 print ("\n          ======= Cardápio =======")
 
+# Números usados para o cliente fazer suas escolhas mais para frente
 print ("\n========== 1 ==========")
 combos_economicos.McLanche_Feliz()
 print ("\n========== 2 ==========")
