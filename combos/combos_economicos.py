@@ -5,8 +5,8 @@ def McLanche_Feliz() :
     print ("- Bebida pequena")
     print ("- Brinquedo")
 
-def Combo_Economico() :
-    print ("===== Combo Econômico =====\n")
+def Combo_Simples() :
+    print ("===== Combo Simples =====\n")
     print ("- Sanduíches menores McChicken Jr.")
     print ("- Batata frita pequena")
     print ("- Refrigerante pequeno")
