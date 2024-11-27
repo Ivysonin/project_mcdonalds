@@ -32,3 +32,14 @@ combos_tradicionais.Duplo_quarterao_com_queijo()
 
 # Lista para adicionar as escolhas do cliente
 lista_usuario = []
+
+while True :
+    escolha_usuario = input("\n=== Escolha um número referente ao lanche(Digite 0 para sair): ")
+
+    if escolha_usuario == "0" :
+        print ("\n===== Você encerrou os pedidos =====\n")
+        break
+
+    elif escolha_usuario == "1" :
+        print("\n=== McLanche Feliz Adicionado ===\n")
+        lista_usuario = lista_usuario.append(combos_economicos.McLanche_Feliz())
