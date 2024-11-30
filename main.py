@@ -1,4 +1,5 @@
 from combos import combos_economicos, combos_especiais, combos_mcnuggets, combos_tradicionais
+from combos.Listas import lista_mc
 
 # organização
 print ("\n========== Bem vindo ao McDonald's ==========")
@@ -37,9 +38,10 @@ while True :
     escolha_usuario = input("\n=== Escolha um número referente ao lanche(Digite 0 para sair): ")
 
     if escolha_usuario == "0" :
-        print ("\n===== Você encerrou os pedidos =====\n")
+        print ("\n===== Você encerrou os pedidos =====\n ===== Suas escolhas :\n")
         break
 
     elif escolha_usuario == "1" :
         print("\n=== McLanche Feliz Adicionado ===\n")
-        lista_usuario = lista_usuario.append(combos_economicos.McLanche_Feliz())
+        # Adicionando os ingredientes dos combos, a lista do usuario.
+        lista_usuario.append(lista_mc.lista_McLanche_Feliz())
