@@ -1,29 +1,29 @@
 def big_Mac() :
     print ("===== Big Mac =====\n")
-    print ("1 - Sanduíche Big Mac")
-    print ("2 - Batata frita média")
-    print ("3 - Refrigerante")
+    print ("- Sanduíche Big Mac")
+    print ("- Batata frita média")
+    print ("- Refrigerante")
 
 def Quarterao_com_queijo() :
     print ("===== Quarterão com Queijo =====\n")
-    print ("1 - Sanduíche Quarterão com Queijo")
-    print ("2 - Batata frita média")
-    print ("3 - Refrigerante")
+    print ("- Sanduíche Quarterão com Queijo")
+    print ("- Batata frita média")
+    print ("- Refrigerante")
 
 def McChicken() :
     print ("===== McChicken =====\n")
-    print ("1 - Sanduíche McChicken")
-    print ("2 - Batata frita média")
-    print ("3 - Refrigerante")
+    print ("- Sanduíche McChicken")
+    print ("- Batata frita média")
+    print ("- Refrigerante")
 
 def Cheddar_McMelt() :
     print ("===== Cheddar McMelt =====\n")
-    print ("1 - Sanduíche Cheddar McMelt")
-    print ("2 - Batata frita média")
-    print ("3 - Refrigerante")
+    print ("- Sanduíche Cheddar McMelt")
+    print ("- Batata frita média")
+    print ("- Refrigerante")
 
 def Duplo_quarterao_com_queijo() :
     print ("===== Duplo Quarterão com Queijo =====\n")
-    print ("1 - Sanduíche Duplo Quarterão")
-    print ("2 - Batata frita média")
-    print ("3 - Refrigerante")
+    print ("- Sanduíche Duplo Quarterão")
+    print ("- Batata frita média")
+    print ("- Refrigerante")
