@@ -11,7 +11,7 @@ def lista_McLanche_Feliz() :
 
 def lista_Combo_Simples() :
     lista = [
-    "===== Combo Simples:",
+    "\n===== Combo Simples:",
     "Sanduíches menores McChicken Jr",
     "Batata frita pequena",
     "Refrigerante pequeno"
@@ -21,7 +21,7 @@ def lista_Combo_Simples() :
 # Combos especiais
 def lista_McCrispy_Chicken_Deluxe() :
     lista = [
-    "===== Combo McCrispy Chicken Deluxe:",
+    "\n===== Combo McCrispy Chicken Deluxe:",
     "Sanduíche com frango empanado crocante, alface e molho especial",
     "Batata frita média",
     "Refrigerante"
@@ -30,7 +30,7 @@ def lista_McCrispy_Chicken_Deluxe() :
 
 def lista_McFish() :
     lista = [
-    "===== Combo McFish:",
+    "\n===== Combo McFish:",
     "Sanduíche com filé de peixe empanado e molho tártaro",
     "Batata frita média",
     "Refrigerante"
@@ -39,7 +39,7 @@ def lista_McFish() :
 
 def lista_McVeggie() :
     lista = [
-    "===== Combo McVeggie:",
+    "\n===== Combo McVeggie:",
     "Sanduíche vegetariano com hambúrguer à base de vegetais",
     "Batata frita média",
     "Refrigerante"
@@ -49,7 +49,7 @@ def lista_McVeggie() :
 # Combos mcnuggets
 def lista_McNuggets_10_peças() :
     lista = [
-    "===== Combo McNuggets 10 peças:",
+    "\n===== Combo McNuggets 10 peças:",
     "10 unidades de McNuggets",
     "Batata frita média",
     "Refrigerante"
@@ -58,7 +58,7 @@ def lista_McNuggets_10_peças() :
 
 def lista_McNuggets_15_peças() :
     lista = [
-    "===== Combo McNuggets 15 peças:",
+    "\n===== Combo McNuggets 15 peças:",
     "15 unidades de McNuggets",
     "Batata frita média",
     "Refrigerante"
@@ -68,7 +68,7 @@ def lista_McNuggets_15_peças() :
 # Combos tradicionais
 def lista_big_Mac() :
     lista = [
-    "===== Big Mac:",
+    "\n===== Big Mac:",
     "Sanduíche Big Mac",
     "Batata frita média",
     "Refrigerante"
@@ -77,7 +77,7 @@ def lista_big_Mac() :
 
 def lista_Quarterao_com_queijo() :
     lista = [
-    "===== Quarterão com Queijo:",
+    "\n===== Quarterão com Queijo:",
     "Sanduíche Quarterão com Queijo",
     "Batata frita média",
     "Refrigerante"
@@ -86,7 +86,7 @@ def lista_Quarterao_com_queijo() :
 
 def lista_McChicken() :
     lista = [
-    "===== McChicken:",
+    "\n===== McChicken:",
     "Sanduíche McChicken",
     "Batata frita média",
     "Refrigerante"
@@ -95,7 +95,7 @@ def lista_McChicken() :
 
 def lista_Cheddar_McMelt() :
     lista = [
-    "===== Cheddar McMelt:",
+    "\n===== Cheddar McMelt:",
     "Sanduíche Cheddar McMelt",
     "Batata frita média",
     "Refrigerante"
@@ -104,7 +104,7 @@ def lista_Cheddar_McMelt() :
 
 def lista_Duplo_quarterao_com_queijo() :
     lista = [
-    "===== Duplo Quarterão com Queijo:",
+    "\n===== Duplo Quarterão com Queijo:",
     "Sanduíche Duplo Quarterão",
     "Batata frita média",
     "Refrigerante"
