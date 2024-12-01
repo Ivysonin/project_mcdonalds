@@ -45,3 +45,61 @@ while True :
         print("\n=== McLanche Feliz Adicionado ===")
         # Adicionando os ingredientes dos combos, a lista do usuario.
         lista_usuario.append(lista_mc.lista_McLanche_Feliz())
+    
+    elif escolha_usuario == "2" :
+        print ("\n=== Combo Simples Adicionado")
+        lista_usuario.append(lista_mc.lista_Combo_Simples())
+
+    elif escolha_usuario == "3" :
+        print ("\n=== McCrispy Chicken Deluxe Adicionado")
+        lista_usuario.append(lista_mc.lista_McCrispy_Chicken_Deluxe())
+
+    elif escolha_usuario == "4" :
+        print ("\n=== McFish Adicionado")
+        lista_usuario.append(lista_mc.lista_McFish())
+
+    elif escolha_usuario == "5" :
+        print ("\n=== McVeggie Adicionado")
+        lista_usuario.append(lista_mc.lista_McVeggie())
+
+    elif escolha_usuario == "6" :
+        print ("\n=== McNuggets_10_peças Adicionado")
+        lista_usuario.append(lista_mc.lista_McNuggets_10_peças())
+
+    elif escolha_usuario == "7" :
+        print ("\n=== McNuggets_15_peças Adicionado")
+        lista_usuario.append(lista_mc.lista_McNuggets_15_peças())
+
+    elif escolha_usuario == "8" :
+        print ("\n=== Big Mac Adicionado")
+        lista_usuario.append(lista_mc.lista_big_Mac())
+
+    elif escolha_usuario == "9" :
+        print ("\n=== Quarterão com Queijo Adicionado")
+        lista_usuario.append(lista_mc.lista_Quarterao_com_queijo())
+
+    elif escolha_usuario == "10" :
+        print ("\n=== McChicken Adicionado")
+        lista_usuario.append(lista_mc.lista_McChicken())
+
+    elif escolha_usuario == "11" :
+        print ("\n=== Cheddar McMelt Adicionado")
+        lista_usuario.append(lista_mc.lista_Cheddar_McMelt())
+    
+    elif escolha_usuario == "12" :
+        print ("\n=== Duplo Quarterão com Queijo Adicionado")
+        lista_usuario.append(lista_mc.lista_Duplo_quarterao_com_queijo())
+
+    # Se surgir algum erro
+    else:
+        print ("\n========== ERRO ==========\n")
+
+# Com a variavel 'combos' Entro dentro da lista 'lista_usuario' e pego tudo dentro,
+# Fazendo o mesmo com 'i' para exibir todos os itens separadamente.
+for combos in lista_usuario :
+    for i in combos :
+        print (f"- {i}")
+
+# Finalizando.
+print ("\n===== Pedidos finalizados =====")
+print ("\n===== Obrigado, Volte sempre =====\n")
