@@ -1,7 +1,7 @@
 # Combos economicos
 def lista_McLanche_Feliz() :
     lista = [
-    "===== Combo McLanche Feliz:",
+    "\n===== Combo McLanche Feliz:",
     "Mini sanduíche Cheeseburger",
     "Batata frita",
     "Bebida pequena",
