@@ -1,5 +1,12 @@
+# Importando
 from combos import combos_economicos, combos_especiais, combos_mcnuggets, combos_tradicionais
 from combos.Listas import lista_mc
+
+# Definindo cores usando sequência de escape ANSI
+cor_ciano = '\033[1;36m'
+cor_verde = '\033[1;32m'
+cor_vermelho = '\033[31m'
+reset_cor = '\033[0m' # Resetar a cor para o padrão
 
 # organização
 print ("\n========== Bem vindo ao McDonald's ==========")
@@ -38,61 +45,64 @@ while True :
     escolha_usuario = input("\n=== Escolha um número referente ao lanche(Digite 0 para sair): ")
 
     if escolha_usuario == "0" :
-        print ("\n===== Você encerrou os pedidos =====\n           Suas escolhas :\n")
+        print (f"{cor_vermelho}\n===== Você encerrou os pedidos ====={reset_cor}")
         break
 
     elif escolha_usuario == "1" :
-        print("\n=== McLanche Feliz Adicionado ===")
+        print(f"{cor_verde}\n=== McLanche Feliz Adicionado ==={reset_cor}")
         # Adicionando os ingredientes dos combos, a lista do usuario.
         lista_usuario.append(lista_mc.lista_McLanche_Feliz())
     
     elif escolha_usuario == "2" :
-        print ("\n=== Combo Simples Adicionado")
+        print (f"{cor_verde}\n=== Combo Simples Adicionado{reset_cor}")
         lista_usuario.append(lista_mc.lista_Combo_Simples())
 
     elif escolha_usuario == "3" :
-        print ("\n=== McCrispy Chicken Deluxe Adicionado")
+        print (f"{cor_verde}\n=== McCrispy Chicken Deluxe Adicionado{reset_cor}")
         lista_usuario.append(lista_mc.lista_McCrispy_Chicken_Deluxe())
 
     elif escolha_usuario == "4" :
-        print ("\n=== McFish Adicionado")
+        print (f"{cor_verde}\n=== McFish Adicionado{reset_cor}")
         lista_usuario.append(lista_mc.lista_McFish())
 
     elif escolha_usuario == "5" :
-        print ("\n=== McVeggie Adicionado")
+        print (f"{cor_verde}\n=== McVeggie Adicionado{reset_cor}")
         lista_usuario.append(lista_mc.lista_McVeggie())
 
     elif escolha_usuario == "6" :
-        print ("\n=== McNuggets_10_peças Adicionado")
+        print (f"{cor_verde}\n=== McNuggets_10_peças Adicionado{reset_cor}")
         lista_usuario.append(lista_mc.lista_McNuggets_10_peças())
 
     elif escolha_usuario == "7" :
-        print ("\n=== McNuggets_15_peças Adicionado")
+        print (f"{cor_verde}\n=== McNuggets_15_peças Adicionado{reset_cor}")
         lista_usuario.append(lista_mc.lista_McNuggets_15_peças())
 
     elif escolha_usuario == "8" :
-        print ("\n=== Big Mac Adicionado")
+        print (f"{cor_verde}\n=== Big Mac Adicionado{reset_cor}")
         lista_usuario.append(lista_mc.lista_big_Mac())
 
     elif escolha_usuario == "9" :
-        print ("\n=== Quarterão com Queijo Adicionado")
+        print (f"{cor_verde}\n=== Quarterão com Queijo Adicionado{reset_cor}")
         lista_usuario.append(lista_mc.lista_Quarterao_com_queijo())
 
     elif escolha_usuario == "10" :
-        print ("\n=== McChicken Adicionado")
+        print (f"{cor_verde}\n=== McChicken Adicionado{reset_cor}")
         lista_usuario.append(lista_mc.lista_McChicken())
 
     elif escolha_usuario == "11" :
-        print ("\n=== Cheddar McMelt Adicionado")
+        print (f"{cor_verde}\n=== Cheddar McMelt Adicionado{reset_cor}")
         lista_usuario.append(lista_mc.lista_Cheddar_McMelt())
     
     elif escolha_usuario == "12" :
-        print ("\n=== Duplo Quarterão com Queijo Adicionado")
+        print (f"{cor_verde}\n=== Duplo Quarterão com Queijo Adicionado{reset_cor}")
         lista_usuario.append(lista_mc.lista_Duplo_quarterao_com_queijo())
 
     # Se surgir algum erro
     else:
-        print ("\n========== ERRO ==========\n")
+        print (f"{cor_vermelho}\n========== ERRO ==========\n{reset_cor}")
+
+# Organização
+print(f'\n{cor_verde}           Suas escolhas :\n{reset_cor}')
 
 # Com a variavel 'combos' Entro dentro da lista 'lista_usuario' e pego tudo dentro,
 # Fazendo o mesmo com 'i' para exibir todos os itens separadamente.
@@ -101,5 +111,5 @@ for combos in lista_usuario :
         print (f"- {i}")
 
 # Finalizando.
-print ("\n===== Pedidos finalizados =====")
-print ("\n===== Obrigado, Volte sempre =====\n")
+print (f"{cor_vermelho}\n===== Pedidos finalizados ====={reset_cor}")
+print (f"{cor_verde}\n===== Obrigado, Volte sempre =====\n{reset_cor}")
